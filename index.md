@@ -2,13 +2,17 @@
 **THIS IS BOLD**
 # This will create a Heading
 ## This will be the sub heading
-[Link](http://a.com)
-![Image](http://url/a.png)
-![Image](https://static.tvtropes.org/pmwiki/pub/images/doraemon_asd.png)
+![Doraemon](https://static.tvtropes.org/pmwiki/pub/images/doraemon_asd.png)
 > This is a block quote
+
+
 * This is a list
+
+
 1. THis is numbering list
 2. number two
+
+
 You add a line below after skipping a line? :
 
 ------
