@@ -29,6 +29,7 @@ The first step to remote access and setting up an environment for coding in your
 ![Terminal Locate](terminal_find.png)
 
 ---
+
 2. `Remotely Connecting`
 
 Once you have located the terminal, make sure your course-specific account is ready for remote connection by resetting your course account password through this  link:
@@ -44,6 +45,7 @@ After your account is set-up, give you a few minutes for your password to be upd
 ![Terminal Locate](ssh_connected.png)
 
 ---
+
 3. `Trying Some Commands`
 
 There are some main linux commands to run on the terminal. Try this out in your terminal. 
@@ -59,7 +61,9 @@ Some commands you can try out are:
 
 > The current directory is printed, a new directory heimer is created, and the Hello.java file from the Desktop is copied into the new directory.
 ![terminal_commands](try_linux_cmds.png)
+
 ---
+
 4. `Moving Files with scp`
 
 
@@ -72,6 +76,7 @@ We do this by the $scp command, followed by the file name and remote server loca
 
 
 ---
+
 5. `Setting an SSH Key`
 
 In this step, we will be utilizing the ssh-keygen program to avoid typing in our password every time we log into ssh or run scp. 
@@ -93,6 +98,7 @@ The public key is copied to our remote server, and the private key is saved some
 ![login_wo_pass](login_without_pass.png)
 
 ---
+
 6. `Optimizing Remote Running`
 
 There are a few ways to enhance your remote code running experience. Some of those are:
