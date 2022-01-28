@@ -10,7 +10,7 @@
 
 ---
 
-1. `Installing VScode`
+1. Installing VScode
 
 The first step to remote access and setting up an environment for coding in your CSE 15L class is installing VS code.
 
@@ -30,7 +30,7 @@ The first step to remote access and setting up an environment for coding in your
 
 ---
 
-2. `Remotely Connecting`
+2. Remotely Connecting
 
 Once you have located the terminal, make sure your course-specific account is ready for remote connection by resetting your course account password through this  link:
 
@@ -46,7 +46,7 @@ After your account is set-up, give you a few minutes for your password to be upd
 
 ---
 
-3. `Trying Some Commands`
+3. Trying Some Commands
 
 There are some main linux commands to run on the terminal. Try this out in your terminal. 
 
@@ -64,7 +64,7 @@ Some commands you can try out are:
 
 ---
 
-4. `Moving Files with scp`
+4. Moving Files with scp
 
 
 One key step in *working remotely* is being able to copy and move files between the local and remote computers. 
@@ -77,7 +77,7 @@ We do this by the $scp command, followed by the file name and remote server loca
 
 ---
 
-5. `Setting an SSH Key`
+5. Setting an SSH Key
 
 In this step, we will be utilizing the ssh-keygen program to avoid typing in our password every time we log into ssh or run scp. 
 
@@ -97,9 +97,10 @@ The public key is copied to our remote server, and the private key is saved some
 > Now you are finished- here is an easier log-in attempt without having to type in your password!
 ![login_wo_pass](login_without_pass.png)
 
+
 ---
 
-6. `Optimizing Remote Running`
+6. Optimizing Remote Running
 
 There are a few ways to enhance your remote code running experience. Some of those are:
 
@@ -108,6 +109,12 @@ There are a few ways to enhance your remote code running experience. Some of tho
 * Using semicolons to run multiple commands can also save you time.
 
 * You can also use the up-arrow on your keyboard to bring back your most recent command, without having to type it again. 
+
+> Compared to separately logging in, listing the files, compiling the file, andthen executing the file before exiting in individual commands (5 keystrokes)
+> Run it all at once in one keystroke 
+![comparing_log_in](less_keystrokes.png)
+
+* Now using the "" quotation marks, you can shorten 5 separate keystorkes to one and save precious runtime! 
 
 
 ```
