@@ -14,7 +14,7 @@
 
 > Because we added in an extra line after the last link, it led to an infinite loop
 > The below screenshot shows the 6 additional lines of changes that were taken to catch this bug
-![commit-1](commit-1.png)
+![commit-1](commit_1.png)
 
 > Because of the extra line, the compiler ran through the markdownparse file to the empty line
 > Searched for the beginning mark of the link, but could not find it. 
