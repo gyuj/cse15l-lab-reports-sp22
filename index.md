@@ -2,11 +2,12 @@
 # This will create a Heading
 ## This will be the sub heading
 
-[Lab Report 1](lab-report-1-week-2.html)
+
 [Lab Report 1](https://gyuj.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+[Lab Report 2](https://gyuj.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
 ![Doraemon](https://static.tvtropes.org/pmwiki/pub/images/doraemon_asd.png)
-> This is a block quote
+> Trying out markdown !! 
 
 > Yes this is but how new line ? 
 
