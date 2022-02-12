@@ -52,9 +52,9 @@
 > Because we had additional nonlink lines below are link address, the compiler ran into 
 > an infinite loop. 
 > We caught this bug by getting rid of the extra unnecessary lines at the end in the markdown file. 
-
+> Below is the screenshot of the fix 
 > Github Desktop Fix #3
-[error_fix3](error_fix3.png)
+![error_fix3](error_fix3.png)
 
 
 
