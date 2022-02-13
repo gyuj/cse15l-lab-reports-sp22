@@ -9,7 +9,7 @@ markdown-parse directory to our ieng6 account.`
 --- 
 ___
 
-1. Using the scp -r command, we copied the whole markdown-parse directory to our ieng6 account.
+// 1. Using the scp -r command, we copied the whole markdown-parse directory to our ieng6 account.
 
 > Below is the screenshot of the scp -r into our ieng6 account. 
 
@@ -20,7 +20,7 @@ ___
 
 ___
 
-2. After securely logging into our ieng6 account, we can see that the markdownparse file and the test files exist in the correctly created directory, and that we can run our java compiler with those files. 
+// 2. After securely logging into our ieng6 account, we can see that the markdownparse file and the test files exist in the correctly created directory, and that we can run our java compiler with those files. 
 
 > There was another mistake made within running our test-file.md with our mardownparse tester, because the addition assert test was not corrected to 2 when we checked with 1+1. 
 
@@ -35,7 +35,7 @@ ___
 ![test_file_good](good_test.png)
 ___
 
-3. The last step of this lab was to combine the commands of scp and ssh using ; to decrease the number of keystrokes as we learned in lab 1. 
+// 3. The last step of this lab was to combine the commands of scp and ssh using ; to decrease the number of keystrokes as we learned in lab 1. 
 
 > We simply wrote in the command line for scp -r into a different directory name and following ; right after, we inputed the command to ssh into our ieng6 account. 
 
