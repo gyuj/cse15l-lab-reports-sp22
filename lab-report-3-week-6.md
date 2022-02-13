@@ -35,4 +35,10 @@ ___
 ![test_file_good](good_test.png)
 ___
 
-3. 
+3. The last step of this lab was to combine the commands of scp and ssh using ; to decrease the number of keystrokes as we learned in lab 1. 
+
+> We simply wrote in the command line for scp -r into a different directory name and following ; right after, we inputed the command to ssh into our ieng6 account. 
+
+> We were able to run this with just one line of code. 
+
+![combining_commands]()
