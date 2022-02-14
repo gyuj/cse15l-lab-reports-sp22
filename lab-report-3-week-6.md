@@ -39,6 +39,23 @@ ___
 
 > We simply wrote in the command line for scp -r into a different directory name and following ; right after, we inputed the command to ssh into our ieng6 account. 
 
-> We were able to run this with just one line of code. 
+> We were able to run this with just one line of code.
+> However, the below combined command did not test out our test file as we had intended, because of incorrect usage of the ; and "" marks for correct command after the ssh command.
+![combining_commands](comb_comm.png)
 
-![combining_commands]()
+> Attempt 1: Another attempt was made to fix this issue;
+> We tried to use the "" after the ssh command to run our java command on the ssh remote host and exit right after. However, the problem here was that we had not run the javac command to compile our MarkdownParse earlier.
+![attempt_1](step3_attempt1.png)
+
+> Attempt 2: The second attempt was made with the javac command and the java command following right after, using the ; to combine the two commands after our ssh command.
+> It failed to give the wanted output again, because compiling MarkdownParse needed to be called as the MarkdownParse.java file. 
+![attempt_2](step3_attempt2.png)
+
+> Attempt 3: The third attempt was made with the correct calling of MarkdownParse.java file after the javac command, but this time, we realized that we were not in the correct directory of the new-lab3 we coped the markdownparse directory into. 
+![attempt_3](step3_attempt3.png)
+
+> Attempt 4: The fourth attempt was made with copying our directory into the new-lab3 that we copied the markdownparse directory in our remote access, and tried running our javac and java commands for the MarkdownParse files. However, this time the problem was not using the correct javac command that called forth the junit libraries. 
+![attempt_4](step3_attempt4.png)
+
+> Attempt 5: The fifth attempt was made with the correct javac and java commands of the junit libraries as provided from class. However, this attempt failed to give the wanted output as well. 
+![attempt_5](step3_attempt5.png)
