@@ -1,25 +1,31 @@
 # Week 8 Lab Report 4
 ## Debuggers and Snippets
 
----
 
-`In this lab, we will show how to run tests for our markdown snippets
-using our JUnit tests and compare our MarkdownParseTest with other tests.`
+In this lab, we will show how to run tests for our markdown snippets
+using our JUnit tests and compare our MarkdownParseTest with other tests.
 
 ___
 
 // Links to personal and other mdp
 
 [This is the link to my implementatin of mdp](https://github.com/gyuj/markdown-parse.git)
+
 [This is the link to the other groups implementation of mdp from Week 7: clingunis ](https://github.com/clingunis/markdown-parse.git)
 ___
 
-// Preview of snippets on what they should look like
+> Preview of snippets on what they should look like
+
+Snippet #1
 ![Snippet 1](snip-1_prev.png)
+
+Snippet #2
 ![Snippet_2](snip-2_prev.png)
+
+Snippet #3
 ![Snippet_3](snip-3_prev.png)
 
-// How to test the snippets in our MardownParseTest.java
+> How to test the snippets in our MardownParseTest.java
 ![Code for tests of snippets](mdp-sniptest.png)
 
 ___
