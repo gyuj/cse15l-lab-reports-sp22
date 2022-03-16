@@ -5,21 +5,21 @@ In this lab report, we will try to implement the commonmark-spec tests with our 
 
 // First, I tried to find the previous MarkdownParse.java implementation where the commonmark-spec tests with the most recent code for the getLinks method class file had not yet been updated. 
 
-![checking_ls](ssh/ls/check.png)
+![checking_ls](ssh_ls_check.png)
 
 // By using the command-line ls, I looked at my library to find which one could still run its MarkdownParse.java without any errors. Out of new-lab3, markdown-parse-main_12, mdp, wk09, and wk10, only mdp and wk09 seemed to be running its tests. 
 
 1. checking new-lab-3, failed tests from runtime error
-![lab-3_check](new-lab-3/fail/check.png)
+![lab-3_check](new_lab_3_fail_check.png)
 
 2. checking markdown-parse_12, failed tests from the MarkdownParse.java being too far behind with its getLinks methods.
-![mdp_12_check](mdp_12/fail/check.png)
+![mdp_12_check](mdp_12_fail_check.png)
 
 3. checking wk09, after ls to check, we ran the make tests and saw that the MarkdownParse.java was running fine for this file.
-![wk09_mdp](wk09/mdp/check.png)
+![wk09_mdp](wk09_mdp_check.png)
 
 4. checking wk10, failed tests from runtime error
-![wk10_mdp](wk10/fail/check.png)
+![wk10_mdp](wk10_fail_check.png)
 
 // After identifying which files we were able to run successfully and compare our bash results with, I used the command
 
