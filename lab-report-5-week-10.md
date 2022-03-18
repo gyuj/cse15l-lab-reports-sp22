@@ -42,5 +42,38 @@ After doing so, I ran the make test commands again to check.
 
 // I will manually find the bugs within one of the directory andthen attempt to explain what code changes would be necessary to catch the bug. 
 
+___
+
+
+> Below, I am looking at the result.txt and searching for incorrect outputs manually. 
+> I chose 499 and 500. 
+![result_file](wk09_results.png)
+
+## First Example - 499.md
+![499_md](499_preview.png)
+
+We can see that the link is created in the VSCode preview.
+Also through the cat command, we can look inside the test-file of 499.md.
+We can see that the correct expected output should be [], 499.md being a broken link that shouldn't be able to save anything.
+![499_cat](499_cat.png)
+
+However, the output with the markdownparse file we observed was what we saw through the cat command, and the output text was differing to what we expected.
+
+***The bug that should be fixed***
+
+This bug was probably caused by either the stray slashes being doubled up incorrectly, or the incorrect usage of the colon. This colon could be possibly caught in our MarkdownParse java code by checking for it within the getLinks method, whether it existed. As for the slashes, we can also check for it, and disregard those slash characters from being incorrectly included within the links. 
+
+
+
+## Second Example - 500.md
+![500_corr](500_corr_cat.png)
+
+For this test file, we can see that the three links also included within this markdown file should not be ran through, and should return the correct expected output of []. This is becaue of the # that begins the links enclosed within the parentheses. 
+
+***The bug that should be fixed***
+
+We need to catch the # that begins the enclosed links within the parenthese. This bug might have occurred because we didn't put into consideration what # could do to our markdownparse getLinks method and the results that we passed out using the method. It might be a good idea to check for where the # sign begins, or put stricter constraints to checking where the correct link string began and ended, without including the random characters. 
+
+
 
 
