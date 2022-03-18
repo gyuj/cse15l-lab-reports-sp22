@@ -54,7 +54,7 @@ ___
 
 We can see that the link is created in the VSCode preview.
 Also through the cat command, we can look inside the test-file of 499.md.
-We can see that the correct expected output should be [], 499.md being a broken link that shouldn't be able to save anything.
+We can see that the correct expected output should be [], 499.md being a broken link that shouldn't be able to save anything. 
 ![499_cat](499_cat.png)
 
 However, the output with the markdownparse file we observed was what we saw through the cat command, and the output text was differing to what we expected.
@@ -66,9 +66,10 @@ This bug was probably caused by either the stray slashes being doubled up incorr
 
 
 ## Second Example - 500.md
-![500_corr](500_corr_cat.png)
+![500_prev](500_preview.png)
 
-For this test file, we can see that the three links also included within this markdown file should not be ran through, and should return the correct expected output of []. This is becaue of the # that begins the links enclosed within the parentheses. 
+For this test file, we can see that the three links also included within this markdown file should not be ran through, and should return the correct expected output of []. This is becaue of the # that begins the links enclosed within the parentheses. We ran the cat command again to see what was actually contained within the 500.md test file, and identifed the error-causing #. 
+![500_corr](500_corr_cat.png)
 
 ***The bug that should be fixed***
 
